@@ -1,0 +1,5 @@
+frase = str(input("Digite uma frase: ")).upper().strip()
+letraA = frase.count("A")
+print(f"A frase possui um total de {letraA} letras A.")
+print(f"A posição da primeira letra A é: {frase.find("A")+1}")
+print(f"E a última letra A aparece na posição: {frase.rfind("A")+1}")
